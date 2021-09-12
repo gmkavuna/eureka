@@ -1,0 +1,450 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: small;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#page {
+	margin: 10px auto 1em auto;
+	width: 770px;
+}
+h2{
+	color:#068caa;
+}
+h4{
+	margin-bottom:10px;
+	padding-bottom: 10px;
+}
+
+
+
+/* Header ---------------------------------------*/
+#header {
+	height: 66px;
+	background: transparent url(images/header_bg.gif) left bottom repeat-x;
+}
+
+#header .top {
+	height: 51px;
+	background: transparent url(images/header_corner_top_left.gif) left top no-repeat;
+	
+}
+
+#header .top .inside {
+	height: 51px;
+	padding: 0 25px;
+	background: transparent url(images/header_corner_top_right.gif) right top no-repeat;
+	line-height: 0;
+	font-size: 0;
+}
+
+
+#tasty_header {
+	height: 75px;
+	#background: transparent url(images/header_bg.gif) left bottom repeat-x;
+}
+
+#tasty_header .top {
+	height: 75px;
+	#background: transparent url(images/header_corner_top_left.gif) left top no-repeat;
+	border-bottom: 1px solid #ccc;
+}
+
+#tasty_header .top .inside {
+	height: 75px;
+	padding: 0px;
+	#background: transparent url(images/header_corner_top_right.gif) right top no-repeat;
+	#line-height: 0;
+	font-size: 28px;
+}
+
+#tasty_header .top .inside .nav {
+	font-size: 12px;
+	padding: 0 5px 0 5px;
+	margin: 0;
+	border-left: 1px solid #ccc;
+}
+
+#tasty_header .top .inside .last {
+        font-size: 12px;
+        padding: 0 5px 0 5px;
+        margin: 0;
+        border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+#header .bot {
+	height: 15px;
+	background: transparent url(images/header_corner_bot_left.gif) left bottom no-repeat;
+	
+}
+
+#header .bot .inside {
+	height: 15px;
+	background: transparent url(images/header_corner_bot_right.gif) right bottom no-repeat;
+	line-height: 0;
+	font-size: 0;
+}
+
+
+#tasty_header .bot {
+	height: 30px;
+	#background: transparent url(images/header_corner_bot_left.gif) left bottom no-repeat;
+	border-bottom: 1px solid #ccc;	
+}
+
+#tasty_header .bot .inside {
+	height: 30px;
+	padding: 5px;
+	#background: transparent url(images/header_corner_bot_right.gif) right bottom no-repeat;
+	#line-height: 0;
+	font-size: 12px;
+	color: #777;
+}
+
+#tasty_header .bot .inside .nav {
+	padding: 0 5px 0 5px;
+	margin: 0;
+	border-left: 1px solid #ccc;
+}
+
+#tasty_header .bot .inside .last {
+        padding: 0 5px 0 5px;
+        margin: 0;
+        border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+
+/* Content ---------------------------------------*/
+#content {
+	padding: 26px 75px 40px 75px;
+}
+
+#content .left_col {
+	float: left;
+	width: 300px;
+	
+}
+
+#content .right_col {
+	float: right;
+	width: 300px;
+	
+}
+
+
+#content .box_image {
+	width: 300px;
+	margin: 20px 0;
+	line-height: 0;
+	font-size: 0;
+	padding:10px;
+}
+
+
+#content .box {
+	width: 300px;
+	margin: 20px 0;
+	background: #f7f7f7 url(images/box_bg.gif) left bottom repeat-x;
+}
+
+#content .box .top {
+	background: #747474 url(images/box_corner_top_left.gif) left top no-repeat;
+	
+}
+
+#content .box .top .inside {
+	padding: .5em 15px;
+	background: transparent url(images/box_corner_top_right.gif) right top no-repeat;
+}
+
+
+#tasty_content {
+	padding: 26px 8px 10px 8px;
+}
+
+#tasty_content .left_col {
+	float: left;
+        width: 300px;
+}
+
+#tasty_content .left_col .action {
+	float: right;
+	padding-left:5px;
+	font-style: italic;
+}
+.action {
+	float: right;
+	padding-left:5px;
+	font-style: italic;
+}
+
+#tasty_content .left_col .nav {
+        font-size: 12px;
+        padding: 0 5px 0 5px;
+        margin: 0;
+        border-left: 1px solid #ccc;
+	color: #aaa;
+}
+
+#tasty_content .left_col .last {
+        font-size: 12px;
+        padding: 0 5px 0 5px;
+        margin: 0;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+	color: #aaa;
+}
+.last {
+        font-size: 12px;
+        padding: 0 5px 0 5px;
+        margin: 0;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+	color: #aaa;
+}
+
+
+#tasty_content .info {
+	color: #777;
+	font-style: italic;
+	font-size: 10px;
+}
+
+#tasty_content .left_col {
+	float: left;
+	width: 500px;
+	color: #777;
+	padding:10px;
+}
+
+#tasty_content .left_col hr {
+	border: 1px solid #ccc;
+}
+
+
+#tasty_content .left_col h2 {
+        color: #333;
+	#border-bottom: 1px solid #ccc;
+}
+
+#tasty_content .right_col {
+	float: right;
+	width: 200px;
+	padding:10px;
+	
+	
+}
+.inside a {
+	border:0px solid gray;
+}
+
+#tasty_content .box_image {
+	width: 200px;
+	margin: 20px 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+#content .box .bot {
+	background: transparent url(images/box_corner_bot_left.gif) left bottom no-repeat;
+	
+}
+
+#content .box .bot .inside {
+	padding: 10px 15px 30px 15px;
+	background: transparent url(images/box_corner_bot_right.gif) right bottom no-repeat;
+}
+
+#content .box .title .left {
+	width: 200px;
+	float: left;
+	color: #fefefe;
+	font-size: 1.1em;
+}
+
+#content .box .title .right {
+	text-align: right;
+	width: 50px;
+	float: right;
+}
+
+#content .box .title a {
+	color: #ffcc00;
+}
+
+#tasty_content .box {
+	width: 200px;
+	margin: 20px 0;
+	#background: #f7f7f7 url(images/box_bg.gif) left bottom repeat-x;
+	border: 1px solid #ccc;
+}
+
+#tasty_content .box .top {
+	background: #777; 
+	border: 1px solid #777;
+}
+
+#tasty_content .box .top .inside {
+	padding: .5em 15px;
+	#background: transparent url(images/box_corner_top_right.gif) right top no-repeat;
+}
+
+#tasty_content .box .bot {
+	#background: transparent url(images/box_corner_bot_left.gif) left bottom no-repeat;
+	
+}
+
+#tasty_content .box .bot .inside {
+	padding: 10px 10px 25px 15px;
+	#background: transparent url(images/box_corner_bot_right.gif) right bottom no-repeat;
+}
+
+#tasty_content .box .title .left {
+	width: 100%;
+	text-align: center;
+	color: #fefefe;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+#tasty_content .box .inside .right {
+	text-align: right;
+	#width: 50px;
+	float: right;
+}
+
+#tasty_content .box .inside a {
+	color: #029acc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 0px 5px 0 5px;
+}
+
+
+
+/* Footer ---------------------------------------*/
+#footer {
+	border-top: 1px solid #ccc;
+	text-align: center;
+	font-size: .85em;
+	color: #444;
+	clear:both;
+}
+
+.subtext {
+	font-size: .9em;
+}
+
+
+
+/* Extra ---------------------------------------*/
+img {
+	border: 0;
+}
+
+a {
+	color: #0076b5;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear_both {
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+}
+.suggested{
+	-webkit-column-count:2; /* Chrome, Safari, Opera */
+	-moz-column-count:2; /* Firefox */
+	column-count:2;
+	-webkit-column-gap:40px; /* Chrome, Safari, Opera */
+	-moz-column-gap:40px; /* Firefox */
+	column-gap:40px;
+	list-style-type: none;
+}
+.clear{
+	border-left:0px solid gray;
+	border-right:0px solid gray;
+}
+#tasty_content .box .inside .tag_list a{
+	border-left:0px solid gray;
+	border-right:0px solid gray;
+}
+#tasty_content .box .inside .tag_list {
+	list-style-type:square;
+	margin-left: 20px;
+}
+.fat{
+	font-weight:bold;
+	color:red;
+}
+.slim{
+	color:gray;
+}
+//this is is a style for error message 
+.error{
+	color:red;
+	font-weight:bold;
+}
+//a style for feedback messages when something has gone through 
+.success{
+	color:green;
+	font-weight:bold;
+}
+::-webkit-input-placeholder {
+   color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}
+/* posts class controls the way posts are listed */
+.posts
+{
+	margin-left:0px;
+	padding-left:0px;
+}
+.posts li
+{
+	list-style-type:none;
+	margin-top:10px;
+}
+/* style applied to dates beneath posts and comemnts */
+.grey{
+	color:#999999;
+}
+#main{
+	width:60%;
+	float:left;
+	margin-top:20px;
+}
+#right{
+	float:right;
+	margin-top:20px;
+	background:#f4f4f4;
+	padding:10px;
+}
+
+
+
+
+
